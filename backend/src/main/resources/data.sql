@@ -1,4 +1,4 @@
-INSERT INTO  TB_CATEGORY(NAME) VALUES
-	('Books'),
-	('Electronics'),
-	('Computers');
+INSERT INTO  TB_CATEGORY(NAME,created_At) VALUES
+	('Books', now()),
+	('Electronics', now()),
+	('Computers', now());
